@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barnsey — I make games</title>
+<meta name="description" content="One guy making games and apps in his spare time. Check out One Tap Drift, my first game on the Play Store.">
+<link rel="icon" href="assets/onetapdrift-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-glow" aria-hidden="true"></div>
+
+<header class="nav">
+  <a href="#top" class="nav__brand">barnsey<span>.dev</span></a>
+  <nav class="nav__links">
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <p class="hero__eyebrow reveal">Solo dev, one game down</p>
+    <h1 class="hero__title reveal">
+      Hey, I'm Barnsey. I make <span class="grad-text">games</span> in my spare time.
+    </h1>
+    <p class="hero__subtitle reveal">
+      No studio, no team, just me messing around with ideas until one's good enough to ship.
+      One Tap Drift is the first to make it out the door.
+    </p>
+    <div class="hero__actions reveal">
+      <a href="#projects" class="btn btn--primary">Check it out</a>
+      <a href="mailto:barnseyyuk@gmail.com" class="btn btn--ghost">Say hi</a>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2 class="section-title reveal">Projects</h2>
+
+    <div class="card-grid">
+      <article class="card reveal">
+        <div class="card__icon-wrap">
+          <img src="assets/onetapdrift-icon.png" alt="One Tap Drift icon" class="card__icon">
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">One Tap Drift</h3>
+          <p class="card__desc">
+            Tap to drift, chain your combos, and try to climb the leaderboard.
+            My first game on the Play Store — simple idea, way more addictive than I expected.
+          </p>
+          <div class="card__tags">
+            <span class="tag">Android</span>
+            <span class="tag">Arcade</span>
+          </div>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.barnseyy.onetapdrift"
+            class="btn btn--store"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg viewBox="0 0 512 512" class="btn__glyph" aria-hidden="true">
+              <path fill="currentColor" d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/>
+            </svg>
+            Get it on Google Play
+          </a>
+        </div>
+      </article>
+
+      <article class="card card--placeholder reveal">
+        <div class="card__body card__body--center">
+          <p class="card__placeholder-text">Next one's in the works.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="contact reveal">
+    <h2 class="section-title">Say hi</h2>
+    <p class="contact__text">
+      Played One Tap Drift and found a bug, or just want to talk shop? Email me, I actually reply.
+    </p>
+    <a href="mailto:barnseyyuk@gmail.com" class="btn btn--primary">barnseyyuk@gmail.com</a>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Barnsey. Made this myself.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
