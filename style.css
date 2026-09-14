@@ -283,6 +283,12 @@ main {
   letter-spacing: -0.01em;
   margin: 40px 0 14px;
 }
+.policy__body h3 {
+  color: var(--text);
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 28px 0 12px;
+}
 .policy__body h2:first-child { margin-top: 0; }
 .policy__body p { margin: 0 0 16px; }
 .policy__body ul { margin: 0 0 16px; padding-left: 1.2em; }
