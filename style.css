@@ -257,3 +257,47 @@ main {
   .reveal { opacity: 1; transform: none; transition: none; }
   html { scroll-behavior: auto; }
 }
+
+/* ---------- app store badges ---------- */
+.card__badges { display: flex; flex-wrap: wrap; gap: 10px; }
+
+.btn--soon {
+  background: var(--bg-elev);
+  color: var(--text-dim);
+  border-color: var(--card-border);
+  cursor: default;
+  pointer-events: none;
+}
+.btn__glyph--apple { width: 17px; height: 17px; }
+
+/* ---------- policy pages ---------- */
+.policy { padding: clamp(60px, 10vh, 100px) 0 100px; }
+
+.policy__updated { color: var(--text-dim); font-size: 0.9rem; margin: -12px 0 40px; }
+
+.policy__body { color: var(--text-dim); font-size: 1rem; }
+.policy__body h2 {
+  color: var(--text);
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 40px 0 14px;
+}
+.policy__body h2:first-child { margin-top: 0; }
+.policy__body p { margin: 0 0 16px; }
+.policy__body ul { margin: 0 0 16px; padding-left: 1.2em; }
+.policy__body li { margin-bottom: 8px; }
+.policy__body a { color: var(--accent); }
+.policy__body strong { color: var(--text); }
+
+.policy__back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-dim);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 28px;
+}
+.policy__back:hover { color: var(--text); }
