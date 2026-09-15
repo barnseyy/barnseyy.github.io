@@ -26,38 +26,37 @@
 <main id="top">
 
   <section class="hero">
-    <p class="hero__eyebrow reveal">Solo dev, one shipped, one on the way</p>
+    <p class="hero__eyebrow reveal">Thanks for stopping by</p>
     <h1 class="hero__title reveal">
-      Hey, I'm Barnsey. I make <span class="grad-text">games</span> in my spare time.
+      Welcome to <span class="grad-text">Barnseyy.dev</span>.
     </h1>
     <p class="hero__subtitle reveal">
-      No studio, no team — just me, evenings and weekends, messing around with ideas
-      until one's good enough to actually ship. One Tap Drift was the first out the
-      door; Rizen's the one I'm polishing right now.
+      I make Apps & Games for  iOS and Android in my spare time.
     </p>
     <div class="hero__actions reveal">
       <a href="#projects" class="btn btn--primary">Check it out</a>
-      <a href="mailto:barnseyyuk@gmail.com" class="btn btn--ghost">Say hi</a>
+      <a href="mailto:barnseyyuk@gmail.com" class="btn btn--ghost">Support</a>
     </div>
   </section>
 
   <section id="projects" class="projects">
     <h2 class="section-title reveal">Projects</h2>
 
-    <div class="card-grid">
+    <div class="carousel-container">
+    <div class="carousel-track" id="projectCarousel">
       <article class="card reveal">
         <div class="card__icon-wrap">
           <img src="assets/onetapdrift-icon.png" alt="One Tap Drift icon" class="card__icon">
         </div>
         <div class="card__body">
-          <h3 class="card__title">One Tap Drift</h3>
+          <h3 class="card__title" style="color: #ff758f;">One Tap Drift</h3>
           <p class="card__desc">
             Tap to drift, chain your combos, and try to climb the leaderboard.
             My first game on the Play Store — simple idea, way more addictive than I expected.
           </p>
           <div class="card__tags">
+            <span class="tag">iOS</span>
             <span class="tag">Android</span>
-            <span class="tag">Arcade</span>
           </div>
           <div class="card__badges">
             <a
@@ -67,9 +66,12 @@
               rel="noopener noreferrer"
             >
               <svg viewBox="0 0 512 512" class="btn__glyph" aria-hidden="true">
-                <path fill="currentColor" d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/>
+                <path fill="#34A853" d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1z"/>
+                <path fill="#4285F4" d="M47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0z"/>
+                <path fill="#FBBC05" d="M425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8z"/>
+                <path fill="#EA4335" d="M104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/>
               </svg>
-              Get it on Google Play
+              Google Play
             </a>
             <!-- TODO: replace with the real App Store link once live -->
             <a
@@ -81,10 +83,10 @@
               <svg viewBox="0 0 384 512" class="btn__glyph btn__glyph--apple" aria-hidden="true">
                 <path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/>
               </svg>
-              App Store — coming soon
+              App Store
             </a>
           </div>
-          <p style="margin: 14px 0 0;"><a href="onetapdrift-privacy.html" style="color: var(--text-dim); font-size: 0.85rem;">Privacy Policy</a></p>
+          <p style="margin: 14px 0 0;"><a href="onetapdrift-privacy" style="color: var(--text-dim); font-size: 0.85rem;">Privacy Policy</a></p>
         </div>
       </article>
 
@@ -93,22 +95,45 @@
           <img src="assets/rizen-icon.png" alt="Rizen icon" class="card__icon">
         </div>
         <div class="card__body">
-          <h3 class="card__title">Rizen</h3>
+          <h3 class="card__title" style="background: linear-gradient(135deg, #ffb347 0%, #ff7eb3 100%); -webkit-background-clip: text; background-clip: text; color: transparent;">Rizen</h3>
           <p class="card__desc">
-            My answer to always turning my alarm off half asleep and rolling right
-            back over. Ten optional challenges — scan a barcode across the room,
-            walk it off, knock out some squats — stand between you and the snooze
-            button, so you actually have to wake up to make it stop.
+            An alarm you can't ignore. Complete physical challenges—like walking, doing squats, or scanning a barcode across the room—to disable the snooze button and force yourself out of bed.
           </p>
           <div class="card__tags">
             <span class="tag">iOS</span>
             <span class="tag">Android</span>
           </div>
           <div class="card__badges">
-            <span class="btn btn--soon">Coming soon</span>
-            <a href="rizen-privacy.html" class="btn btn--ghost">Privacy Policy</a>
-            <a href="rizen-tos.html" class="btn btn--ghost">Terms of Service</a>
+            <a
+              href="#"
+              class="btn btn--store"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 512 512" class="btn__glyph" aria-hidden="true">
+                <path fill="#34A853" d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1z"/>
+                <path fill="#4285F4" d="M47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0z"/>
+                <path fill="#FBBC05" d="M425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8z"/>
+                <path fill="#EA4335" d="M104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/>
+              </svg>
+              Google Play
+            </a>
+            <a
+              href="#"
+              class="btn btn--store"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 384 512" class="btn__glyph btn__glyph--apple" aria-hidden="true">
+                <path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/>
+              </svg>
+              App Store
+            </a>
           </div>
+          <p style="margin: 14px 0 0;">
+            <a href="rizen-privacy" style="color: var(--text-dim); font-size: 0.85rem; margin-right: 12px;">Privacy Policy</a>
+            <a href="rizen-tos" style="color: var(--text-dim); font-size: 0.85rem;">Terms of Service</a>
+          </p>
         </div>
       </article>
 
@@ -117,7 +142,7 @@
           <img src="assets/wordhive-icon.png" alt="WordHive icon" class="card__icon">
         </div>
         <div class="card__body">
-          <h3 class="card__title">WordHive</h3>
+          <h3 class="card__title" style="color: #a29bfe;">WordHive</h3>
           <p class="card__desc">
             Swipe across a hive of hexes to spell words, clear the board, and
             climb the levels. Four languages, daily objectives, and no
@@ -128,9 +153,107 @@
             <span class="tag">Android</span>
           </div>
           <div class="card__badges">
-            <span class="btn btn--soon">Coming soon</span>
-            <a href="wordhive-privacy.html" class="btn btn--ghost">Privacy Policy</a>
+            <a
+              href="#"
+              class="btn btn--store"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 512 512" class="btn__glyph" aria-hidden="true">
+                <path fill="#34A853" d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1z"/>
+                <path fill="#4285F4" d="M47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0z"/>
+                <path fill="#FBBC05" d="M425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8z"/>
+                <path fill="#EA4335" d="M104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/>
+              </svg>
+              Google Play
+            </a>
+            <a
+              href="#"
+              class="btn btn--store"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg viewBox="0 0 384 512" class="btn__glyph btn__glyph--apple" aria-hidden="true">
+                <path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/>
+              </svg>
+              App Store
+            </a>
           </div>
+          <p style="margin: 14px 0 0;"><a href="wordhive-privacy" style="color: var(--text-dim); font-size: 0.85rem;">Privacy Policy</a></p>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <div class="card__icon-wrap" style="display: flex; align-items: center; justify-content: center; background: var(--bg-elev);">
+          <svg viewBox="0 0 24 24" width="32" height="32" stroke="var(--text-dim)" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polyline points="12 6 12 12 16 14"></polyline>
+          </svg>
+        </div>
+        <div class="card__body">
+          <h3 class="card__title">Astronaut Survivor</h3>
+          <p class="card__desc">
+            Survive the depths of space in this action-packed arcade game. Dodge obstacles, collect power-ups, and see how long you can last.
+          </p>
+          <div class="card__tags">
+            <span class="tag">iOS</span>
+            <span class="tag">Android</span>
+          </div>
+          <div class="card__badges">
+            <a href="#" class="btn btn--store" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 512 512" class="btn__glyph" aria-hidden="true">
+                <path fill="#34A853" d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1z"/>
+                <path fill="#4285F4" d="M47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0z"/>
+                <path fill="#FBBC05" d="M425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8z"/>
+                <path fill="#EA4335" d="M104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/>
+              </svg>
+              Google Play
+            </a>
+            <a href="#" class="btn btn--store" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 384 512" class="btn__glyph btn__glyph--apple" aria-hidden="true">
+                <path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/>
+              </svg>
+              App Store
+            </a>
+          </div>
+          <p style="margin: 14px 0 0;"><a href="#" style="color: var(--text-dim); font-size: 0.85rem;">Privacy Policy</a></p>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <div class="card__icon-wrap" style="display: flex; align-items: center; justify-content: center; background: var(--bg-elev);">
+          <svg viewBox="0 0 24 24" width="32" height="32" stroke="var(--text-dim)" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polyline points="12 6 12 12 16 14"></polyline>
+          </svg>
+        </div>
+        <div class="card__body">
+          <h3 class="card__title" style="color: #a8e6cf;">Mini Golf</h3>
+          <p class="card__desc">
+            Putt your way through tricky obstacles and challenging courses in this fun and relaxing mini golf game. Features a full community level editor to build and share your own courses!
+          </p>
+          <div class="card__tags">
+            <span class="tag">iOS</span>
+            <span class="tag">Android</span>
+          </div>
+          <div class="card__badges">
+            <a href="#" class="btn btn--store" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 512 512" class="btn__glyph" aria-hidden="true">
+                <path fill="#34A853" d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1z"/>
+                <path fill="#4285F4" d="M47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0z"/>
+                <path fill="#FBBC05" d="M425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8z"/>
+                <path fill="#EA4335" d="M104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/>
+              </svg>
+              Google Play
+            </a>
+            <a href="#" class="btn btn--store" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 384 512" class="btn__glyph btn__glyph--apple" aria-hidden="true">
+                <path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/>
+              </svg>
+              App Store
+            </a>
+          </div>
+          <p style="margin: 14px 0 0;"><a href="#" style="color: var(--text-dim); font-size: 0.85rem;">Privacy Policy</a></p>
         </div>
       </article>
 
@@ -140,12 +263,42 @@
         </div>
       </article>
     </div>
+    
+    <div class="carousel-nav" id="carouselNav">
+      <button class="nav-dot active" aria-label="Project 1">
+        <img src="assets/onetapdrift-icon.png" alt="One Tap Drift">
+      </button>
+      <button class="nav-dot" aria-label="Project 2">
+        <img src="assets/rizen-icon.png" alt="Rizen">
+      </button>
+      <button class="nav-dot" aria-label="Project 3">
+        <img src="assets/wordhive-icon.png" alt="WordHive">
+      </button>
+      <button class="nav-dot" aria-label="Project 4">
+        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+      </button>
+      <button class="nav-dot" aria-label="Project 5">
+        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+      </button>
+      <button class="nav-dot" aria-label="Project 6">
+        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="12" y1="5" x2="12" y2="19"></line>
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+        </svg>
+      </button>
+    </div>
   </section>
 
   <section id="contact" class="contact reveal">
-    <h2 class="section-title">Say hi</h2>
+    <h2 class="section-title">Support</h2>
     <p class="contact__text">
-      Found a bug, have an idea, or just fancy a chat? Drop me an email — I actually read them, and I'll actually reply.
+      Need help, found a bug, or have a feature request? Reach out via email
     </p>
     <a href="mailto:barnseyyuk@gmail.com" class="btn btn--primary">barnseyyuk@gmail.com</a>
   </section>
@@ -153,7 +306,7 @@
 </main>
 
 <footer class="footer">
-  <p>&copy; <span id="year"></span> Barnsey. Made this myself.</p>
+  <p>&copy; <span id="year"></span> Barnsey</p>
 </footer>
 
 <script src="script.js"></script>
